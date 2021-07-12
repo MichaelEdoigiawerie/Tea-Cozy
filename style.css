@@ -1,0 +1,146 @@
+/*Global Styles*/
+* {
+    color: seashell;
+    opacity: 0.9;
+    --mainbg: black;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: var(--mainbg);
+    opacity: 1;
+    font-size: 2.2rem;
+}
+
+/*Navigation Bar*/
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 6.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--mainbg);
+    font-size: 2.2rem;
+    padding: 0 0 0 1rem;
+    border-bottom: 0.1rem solid seashell;
+}
+
+.logo {
+    height: 5rem;
+    width: auto;
+}
+
+.options {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.option {
+    padding: 0 1rem;
+}
+
+/*Mission Section*/
+#mission {
+    height: 70rem;
+    width: 95%;
+    margin: auto;
+    background: url('Resources/mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.statement {
+    background: var(--mainbg);
+    text-align: center;
+}
+
+/*Featured Tea Section*/
+#featuredtea {
+    width: 100rem;
+    text-align: center;
+    margin: 10rem auto;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 0 1.5rem;
+}
+
+.item img {
+    width: 30rem;
+    height: 20rem;
+}
+
+/*Locations Section*/
+#locations, .locations-container {
+    display: flex;
+}
+
+#locations {
+    height: 50rem;
+    width: 95%;
+    margin: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: url('Resources/locations-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.locations-container {
+    width: 98rem;
+    justify-content: space-between;
+}
+
+.location {
+    width: 30rem;
+    text-align: center;
+    background: var(--mainbg);
+}
+
+.location h4 {
+    font-weight: normal;
+}
+
+/*Contacts Section*/
+#contacts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 20rem;
+}
+
+#contacts h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#contacts h5 {
+    margin: 1.5rem 0;
+}
+
+/*Footer Section*/
+footer {
+    padding: 0 2rem;
+}
